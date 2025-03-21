@@ -53,7 +53,7 @@ ORDER BY Date
 -- A UNION stacks one table on another (like a VSTACK in Excel)
 SELECT
 	'A' AS MyColumn
-UNION
+UNION ALL
 SELECT
 	'B'
 UNION
